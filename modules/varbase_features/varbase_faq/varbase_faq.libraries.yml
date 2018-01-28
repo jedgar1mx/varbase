@@ -1,0 +1,4 @@
+faq-styles:
+  css:
+    theme:
+      css/theme/faq-styles.theme.css: {}
