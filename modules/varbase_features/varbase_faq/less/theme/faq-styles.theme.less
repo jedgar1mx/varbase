@@ -1,7 +1,13 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-.faq-question,
-#faq-expand-all {
+.faq-question-answer {
+  padding-left: 0;
+  background: white;
+  border-bottom: 1px solid #e3f0e6;
+  cursor: pointer;
+  padding: 19px 0;
+  position: relative;
+  z-index: 2;
   padding-left: 0;
 
   a {
@@ -37,8 +43,44 @@
   padding-bottom: 15px;
 }
 
-// .faq {
-//   .faq-question {
-//     padding-left: 0;
-//   }
-// }
+#faq-expand-all {
+  a {
+    font-size: 16px;
+    color: #696969;
+
+    &:hover,
+    &:focus {
+      color: #303030;
+    }
+  }
+}
+
+#block-faqcategories {
+  text-align: center;
+  margin: 20px auto;
+
+  ul {
+    li {
+      display: inline-block;
+      padding-right: 10px;
+      display: inline-block;
+      padding-left: 5px;
+      padding-right: 5px;
+
+      a {
+        color: #666;
+        font-size: 20px;
+        padding: 0;
+        border-bottom: solid 2px transparent;
+
+        &:hover,
+        &:focus,
+        &.active {
+          border-bottom: solid 2px #29aae1;
+          text-decoration: none;
+          background: transparent;
+        }
+      }
+    }
+  }
+}
