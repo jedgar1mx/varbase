@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - vartheme
+third_party_settings:
+  block_class:
+    classes: ''
+id: faqcategories
+theme: vartheme
+region: content
+weight: -5
+provider: null
+plugin: faq_categories
+settings:
+  id: faq_categories
+  label: 'FAQ Categories'
+  provider: null
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/faq-page/*\r\n/faq-page"
+    negate: false
+    context_mapping: {  }

@@ -3,6 +3,8 @@ description: 'Provides FAQ content type and related configuration. A frequently 
 type: module
 core: 8.x
 dependencies:
+  - block
+  - block_class
   - faq
   - field
   - language
@@ -11,8 +13,10 @@ dependencies:
   - panelizer
   - path
   - rabbit_hole
+  - system
   - taxonomy
   - text
   - user
+  - views
 package: Varbase
 version: 8.x-4.x-dev
