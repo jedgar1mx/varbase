@@ -21,7 +21,7 @@
   font-family: Fontawesome;
   padding-right: 10px;
 }
-.faq-question-answer.faq-qa-visible span:before {
+.faq-question-answer .faq-qa-visible span:before {
   content: "\f107";
   font-family: Fontawesome;
   padding-right: 10px;
