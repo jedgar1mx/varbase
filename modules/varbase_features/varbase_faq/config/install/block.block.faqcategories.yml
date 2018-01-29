@@ -4,8 +4,6 @@ dependencies:
   module:
     - block_class
     - system
-  theme:
-    - vartheme
 third_party_settings:
   block_class:
     classes: ''
